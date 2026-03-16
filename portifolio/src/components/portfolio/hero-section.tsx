@@ -5,8 +5,8 @@ export const HeroSection = () => {
   const handleDownloadResume = () => {
     // Create a mock resume download - replace with actual resume link
     const link = document.createElement('a');
-    link.href = '/Chintalapudi Abhiram_Resume.pdf'; // Make sure this matches the file in public/
-    link.download = 'Chintalapudi Abhiram_Resume.pdf';
+    link.href = '/ChintalapudiAbhiram_Resume.pdf'; // Make sure this matches the file in public/
+    link.download = 'ChintalapudiAbhiram_Resume.pdf';
     link.click();
   };
 
