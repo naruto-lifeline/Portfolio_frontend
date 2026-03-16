@@ -16,7 +16,7 @@ export const SkillsSection = () => {
     {
       title: "Backend Development",
       icon: <Server className="h-6 w-6" />,
-      skills: ["Python", "Django", "Django REST Framework", "PostgreSQL", "MySQL", "SQLite"]
+      skills: ["Python", "Django","FastAPI", "Django REST Framework", "PostgreSQL", "MySQL", "MongoDB"]
     },
     {
       title: "Frontend Development", 
@@ -38,12 +38,16 @@ export const SkillsSection = () => {
   const technicalSkills = [
     { name: "Python", level: 80 },
     { name: "Django", level: 75 },
+    { name: "FastAPI", level: 73 },
     { name: "React", level: 70 },
+    { name: "Vue.js", level: 77 },
     { name: "JavaScript", level: 70 },
     { name: "MySQL", level: 75 },
     { name: "Git", level: 70 },
-    { name: "PostgreSQL", level: 65 },
+    { name: "PostgreSQL", level: 72 },
+    { name: "MongoDB", level: 76 },
     { name: "REST APIs", level: 80 }
+    
   ];
 
   return (
